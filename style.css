@@ -1,0 +1,64 @@
+.navbar {
+    height: 90px;    
+}
+
+.navbar-logo {
+    max-width: 70px;
+}
+
+.mg {
+    margin: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: monospace;
+
+}
+.nav-link:hover{
+    color: rgb(0, 238, 255) !important;
+}
+.dropdown-menu{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+/* Body */
+body{
+    background: radial-gradient(76.92% 76.92% at 100% -100%, rgba(15, 24, 58, 0) .28%, #1c202f 100%);
+}
+.hero-img {
+    display: flex;
+    height: 740px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: radial-gradient(76.92% 76.92% at 50% 20%, rgba(15, 24, 58, 0) .28%, #1c202f 100%), url(Assests/hero-image.jpeg);
+    /* background-image: url(Assests/hero-image.jpeg); */
+    background-position: 50%;
+    background-size: cover;
+}
+.card{
+    background-color: #0c121d;
+    opacity: 85%;
+    color: white;
+
+}
+li, a{
+    text-decoration: none;
+    color: white;
+}
+li, a:hover{
+    color: rgb(0, 238, 255);
+}
+footer {
+    padding: 30px;
+    background-color: #0c121d !important;
+}
